@@ -51,7 +51,8 @@ body{
  color: #e65f78;
 }
 .navBar_heading{
-	margin: 80px 20%;
+	display: inline-block;
+	width: 70%;
 	text-transform: capitalize;
 }
 .navBar_heading h1{
@@ -91,7 +92,7 @@ body{
 }
 /*section one start here*/
 .container{
-	padding: 50px 30px;
+	padding: 50px 50px;
 	display: flex;
 }
 .secOne{
@@ -117,8 +118,8 @@ body{
     font-family: -webkit-pictograph;
 }
 .secOne-para span{
-			color: red;
-			font-family: cursive;
+			color: #e65f78;
+			font-family: sans-serif;
 		}
 .secOne-para p{
 			font-family: sans-serif;
@@ -257,8 +258,8 @@ body{
 }
 .secThree_heading button:hover{
 	color: black;
-	background-color: white;
-	border: 2px solid black;
+	background-color: white ;
+	border: 1px solid black;
 
 }
 /*section three ended here *
@@ -308,7 +309,7 @@ body{
 	margin-top: 100px 0;
 }
 .secFive_container{
-  margin: 3% 8% auto;
+  margin: 3% 5% auto;
 }
 .secFive_heading{
 	margin-top: 140px; 
@@ -463,12 +464,13 @@ body{
 	background-color: #f8f9fa; 
 }
 .secSix_container{
-    width: 80%;
-    margin: 20px 0px 20px 95px;
+    /*width: 80%;*/
+    margin: 3% 5%;
 
 }
 .secSix_heading{
-	margin: 60px 20px;
+	margin-left: 100px: 
+	margin-top: 60px;
 	text-align: center;
 }
 .secSix_heading h1{
@@ -479,7 +481,7 @@ body{
 }
 .secSix_heading p{
 	color: #6c757d;	
-	margin: 20px 200px auto;
+	/*margin: 20px 200px auto;*/
 }
 .secSix_contant{
      display: flex;
@@ -505,6 +507,9 @@ body{
 	text-transform: capitalize;
 	color: #e65f78;
 }
+.secSix_para a span:hover{
+	color: black;
+}
 .secSix_para p{
 	color: #6c757d;
 	margin: 5px auto;
@@ -527,8 +532,7 @@ body{
  margin-bottom: 100px;
 }
 .secSeven_container{
-	/*width: 80%;*/
-	 /*margin: 20px 0px 20px 140px;*/
+	margin: 3% 5%;
 }
 .secSeven_heading{
 	margin: 80px 100px;
@@ -591,7 +595,7 @@ body{
 }
 .secSeven_form button{
 	float: right;
-	padding: 20px 30px;
+	padding: 15px 25px;
 	background-color: #e65f78;
 	border: none;
 	color: white;
